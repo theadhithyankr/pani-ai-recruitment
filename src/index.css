@@ -3,11 +3,23 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-primary: #e11d48;
+  --color-brand-secondary: #be123c;
+  --color-brand-dark: #18181b;
+  --color-brand-light: #71717a;
+  --color-brand-border: #e4e4e7;
 }
 
 :root {
-  background-color: #09090b;
-  color: #fafafa;
+  background-color: #ffffff;
+  color: #18181b;
+}
+
+@layer components {
+  .btn-fiverr-outline {
+    @apply border border-brand-primary text-brand-primary font-bold rounded hover:bg-brand-primary hover:text-white transition-all;
+  }
 }
 
 body {
