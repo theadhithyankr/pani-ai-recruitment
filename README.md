@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Pani AI Recruitment
 
-# Run and deploy your AI Studio app
+AI-assisted recruitment platform prototype built with TypeScript, Vite, and a local server/database setup.
 
-This contains everything you need to run your app locally.
+## Key Features
+- AI-assisted recruitment platform prototype built with TypeScript, Vite, and a local server/database setup
+- AI/service layer is separated into dedicated source files so prompts, model calls, and UI actions are easier to inspect.
+- Package scripts provide reproducible development, build, and preview commands.
 
-View your app in AI Studio: https://ai.studio/apps/aab87ceb-bad9-4024-8ff1-a05dbf92e058
+## Tech Stack
+- JavaScript/TypeScript
+- React
+- Vite
+- Tailwind CSS
+- HTML/CSS
 
-## Run Locally
+## Project Structure
+- src/app or app - application routes, screens, and layout files.
 
-**Prerequisites:**  Node.js
+## Setup and Run
+```bash
+git clone https://github.com/theadhithyankr/pani-ai-recruitment.git
+cd pani-ai-recruitment
+npm install
+npm run dev
+npm run build
+npm run preview
+```
 
+## What This Project Demonstrates
+- Building user-facing web applications with component-based UI and modern frontend tooling.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Repository
+- GitHub: https://github.com/theadhithyankr/pani-ai-recruitment
