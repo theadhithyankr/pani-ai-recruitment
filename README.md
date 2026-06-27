@@ -14,7 +14,7 @@ AI recruitment project for screening, matching, or assisting hiring decisions.
 
 P.A.N.I AI Recruitment is a AI recruitment project in the TheAdhithyanKR/pani-ai-recruitment repository. AI-assisted recruitment platform prototype built with TypeScript, Vite, and a local server/database setup.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -31,7 +31,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- .env.example
 |-- index.html
@@ -47,14 +47,14 @@ The README was written from the repository contents, including its manifest file
 |-- src/types.ts
 |-- tsconfig.json
 |-- vite.config.ts
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm run dev
-`
+```
 
 ## What This Project Demonstrates
 
